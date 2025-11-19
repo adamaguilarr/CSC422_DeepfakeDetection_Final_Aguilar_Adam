@@ -209,3 +209,10 @@ __marimo__/
 # Ignore raw Kaggle videos
 data/raw/
 !data/raw/README.md
+
+# Ignore raw Kaggle videos
+data/raw/
+
+# Ignore extracted frames (thousands of JPGs)
+data/processed/frames/
+notebooks/data/processed/frames/
