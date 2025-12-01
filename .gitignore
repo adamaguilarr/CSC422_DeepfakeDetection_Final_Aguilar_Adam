@@ -216,3 +216,11 @@ data/raw/
 # Ignore extracted frames (thousands of JPGs)
 data/processed/frames/
 notebooks/data/processed/frames/
+
+# Data and processed frames
+data/
+notebooks/data/
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.mp4
