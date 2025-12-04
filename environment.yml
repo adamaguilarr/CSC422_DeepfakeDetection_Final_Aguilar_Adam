@@ -1,0 +1,29 @@
+name: deepfake-env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - pillow
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - tqdm
+  - ipykernel
+  - jupyter
+
+  # PyTorch CPU build
+  - pytorch
+  - torchvision
+  - torchaudio
+
+# How to use it:
+conda env create -f environment.yml
+conda activate deepfake-env
+
+# Updates if needed:
+conda env update -f environment.yml --prune

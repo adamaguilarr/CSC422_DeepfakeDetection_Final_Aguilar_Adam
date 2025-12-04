@@ -1,0 +1,42 @@
+# Clone the repo
+git clone https://github.com/adamaguilarr/CSC422_DeepfakeDetection_Final_Aguilar_Adam.git
+cd CSC422_DeepfakeDetection_Final_Aguilar_Adam
+
+# Create and activate a virtual environment
+python -m venv .venv
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
+
+# Install dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+
+
+---
+
+## requirements.txt
+
+# Core
+numpy
+pandas
+
+# Deep learning
+torch
+torchvision
+torchaudio
+
+# Vision and image handling
+opencv-python
+Pillow
+
+# ML utilities
+scikit-learn
+tqdm
+
+# Plotting and visualization
+matplotlib
+seaborn
+
+# Jupyter environment
+jupyter
+ipykernel
